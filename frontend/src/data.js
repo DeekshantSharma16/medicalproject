@@ -1,5 +1,5 @@
 const  data = {
-  produsts:[
+  products:[
     {
       _id:'1',
       name:'nike slim shirt',
