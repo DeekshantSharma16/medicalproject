@@ -6,7 +6,7 @@ import CartScreen from './screens/CartScreen';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import RegisterScreen from './screens/RegisterScreen';
-import PaymentMethodScreen from './screens/PaymentMethodScreen';
+import PaymentMethodScreen from './screens/PaymentMethodscreen';
 import ShippingAddressScreen from './screens/ShippingAddressScreen';
 import SigninScreen from './screens/SigninScreen';
 
