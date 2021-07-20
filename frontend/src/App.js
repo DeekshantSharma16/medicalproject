@@ -5,10 +5,12 @@ import { signout } from './actions/userActions';
 import CartScreen from './screens/CartScreen';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
+import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import PaymentMethodScreen from './screens/PaymentMethodscreen';
 import ShippingAddressScreen from './screens/ShippingAddressScreen';
 import SigninScreen from './screens/SigninScreen';
+import OrderScreen from './screens/OrderScreen';
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -60,6 +62,8 @@ function App() {
           <Route path="/register" component={RegisterScreen}></Route>
           <Route path="/shipping" component={ShippingAddressScreen}></Route>
           <Route path="/payment" component={PaymentMethodScreen}></Route>
+          <Route path="/placeorder" component={PlaceOrderScreen}></Route>
+          <Route path="/order/:id" component={OrderScreen}></Route>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
         <footer className="row center">All right reserved</footer>
